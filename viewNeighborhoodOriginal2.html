@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="mycss.css">
+    <title>My favourite Neighborhood</title>
+	
+	</head>
+<body>
+   
+      <p id="inputField">
+    What do you want to search?: 
+    <input data-bind="
+        value: searchLocation, 
+        event: {focus:  focusHandler, blur: focusHandler}"/>
+	   </p>
+    	<tr>
+	<table>
+    <tbody data-bind="foreach: locations">
+        <tr>
+            <td ><span data-bind="text: nameLocation"></span></td>
+                    </tr>
+    </tbody>
+	
+</table>
+</tr>
+	<div id="map"></div> 
+</body>	
+
+<script type='text/javascript' src='knockout-3.3.0.js'></script>
+<script type='text/javascript' src='oauth-signature.js'></script>
+<script type='text/javascript' src='jquery-1.11.3.js'></script>
+<script type='text/javascript' src='json2.js'></script>
+ <script src="project5.js"></script>
+ 
+ 

@@ -1,0 +1,10 @@
+#map {
+    width: 1500px;
+    height: 500px;
+}
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
