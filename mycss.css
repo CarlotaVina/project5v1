@@ -1,41 +1,63 @@
 
 #map1 {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
+	height: 400px;
+	width: 100%;
+	padding-bottom: 5%;
 }
+
 #mapw {
-   display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
+
 #map {
-    max-width: 100%;
-    height: 400px;
+	max-width: 100%;
+	height: 400px;
 }
-@media only screen and (min-width: 50px) {
-    #map {
-    display: block;
-  }
+
+@media only screen and (min-width: 50%) {
+#map {
+	display: block;
 }
-@media only screen and (max-width:500px) {
-  #map {
-    width: 175px;
-  }
 }
+
+@media only screen and (max-width: 75%) {
+#map {
+	width: 175px;
+}
+}
+
 #inputField {
-   display: block;
-  max-width: 100%;
-  height: auto;
+	display: block;
+	max-width: 100%;
+	height: auto;
 }
+
 @media only screen and (min-width: 50px) {
-    #inputField {
-    display: block;
-  }
+ #inputField {
+ 	display: block;
+ }
 }
+
 @media only screen and (max-width:500px) {
-  #inputField {
-    width: 175px;
-  }
+#inputField {
+	width: 175px;
+}
+}
+
+.checked
+{
+	color: blue;
+}
+
+.nochecked
+{
+	color: red;
+}
+
+
+
+
 }
 
